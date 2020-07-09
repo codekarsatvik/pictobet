@@ -1,0 +1,55 @@
+body{
+
+  background-image:url(mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  } */
+h1{
+
+  padding: 10px;
+  font-size: 100px;
+  display: inline;
+  color: white;
+}
+.container{
+  text-align: center;
+  position: relative;
+  margin: 30px auto;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+.image{
+  text-align: center;
+  margin-top: 50px;
+
+}
+h2{
+  margin: 0;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+}
+.h{
+  text-align: center;
+}
+@media(max-width: 400px){
+  .image{
+    margin-top: 200px;
+  }
+  body{
+    background-color: blue;
+  }
+}
